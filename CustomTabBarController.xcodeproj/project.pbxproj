@@ -15,6 +15,15 @@
 		84E7485C2140C792002C51F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7485B2140C792002C51F9 /* main.m */; };
 		84E748662140C792002C51F9 /* CustomTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E748652140C792002C51F9 /* CustomTabBarControllerTests.m */; };
 		84E748712140C792002C51F9 /* CustomTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E748702140C792002C51F9 /* CustomTabBarControllerUITests.m */; };
+		84E748812140C86D002C51F9 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E748802140C86D002C51F9 /* CustomTabBarController.m */; };
+		84E748842140C8C5002C51F9 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E748832140C8C5002C51F9 /* CustomTabBar.m */; };
+		84E748872140CB1C002C51F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E748862140CB1C002C51F9 /* SecondViewController.m */; };
+		84E7488A2140CB2C002C51F9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E748892140CB2C002C51F9 /* ThirdViewController.m */; };
+		84E7488D2140CB4B002C51F9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7488C2140CB4B002C51F9 /* FirstViewController.m */; };
+		84E74899214104BB002C51F9 /* WXWTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74898214104BB002C51F9 /* WXWTabBarControllerConfig.m */; };
+		84E748A021411A70002C51F9 /* UIView+CustomTabBarControllerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7489A21411A6F002C51F9 /* UIView+CustomTabBarControllerExtension.m */; };
+		84E748A121411A70002C51F9 /* UIControl+CustomTabBarControllerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7489D21411A6F002C51F9 /* UIControl+CustomTabBarControllerExtension.m */; };
+		84E748A221411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7489F21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		84E7486C2140C792002C51F9 /* CustomTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E748702140C792002C51F9 /* CustomTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarControllerUITests.m; sourceTree = "<group>"; };
 		84E748722140C792002C51F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E7487F2140C86D002C51F9 /* CustomTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		84E748802140C86D002C51F9 /* CustomTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		84E748822140C8C5002C51F9 /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		84E748832140C8C5002C51F9 /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		84E748852140CB1C002C51F9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84E748862140CB1C002C51F9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84E748882140CB2C002C51F9 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		84E748892140CB2C002C51F9 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		84E7488B2140CB4B002C51F9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84E7488C2140CB4B002C51F9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84E74897214104BB002C51F9 /* WXWTabBarControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWTabBarControllerConfig.h; sourceTree = "<group>"; };
+		84E74898214104BB002C51F9 /* WXWTabBarControllerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWTabBarControllerConfig.m; sourceTree = "<group>"; };
+		84E7489A21411A6F002C51F9 /* UIView+CustomTabBarControllerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomTabBarControllerExtension.m"; sourceTree = "<group>"; };
+		84E7489B21411A6F002C51F9 /* UIView+CustomTabBarControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomTabBarControllerExtension.h"; sourceTree = "<group>"; };
+		84E7489C21411A6F002C51F9 /* UIControl+CustomTabBarControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CustomTabBarControllerExtension.h"; sourceTree = "<group>"; };
+		84E7489D21411A6F002C51F9 /* UIControl+CustomTabBarControllerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CustomTabBarControllerExtension.m"; sourceTree = "<group>"; };
+		84E7489E21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CustomTabBarControllerExtension.h"; sourceTree = "<group>"; };
+		84E7489F21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CustomTabBarControllerExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,19 @@
 		84E7484B2140C790002C51F9 /* CustomTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				84E7487E2140C816002C51F9 /* CustomTabBarController */,
 				84E7484C2140C790002C51F9 /* AppDelegate.h */,
 				84E7484D2140C790002C51F9 /* AppDelegate.m */,
 				84E7484F2140C790002C51F9 /* ViewController.h */,
 				84E748502140C790002C51F9 /* ViewController.m */,
+				84E7488B2140CB4B002C51F9 /* FirstViewController.h */,
+				84E7488C2140CB4B002C51F9 /* FirstViewController.m */,
+				84E748852140CB1C002C51F9 /* SecondViewController.h */,
+				84E748862140CB1C002C51F9 /* SecondViewController.m */,
+				84E748882140CB2C002C51F9 /* ThirdViewController.h */,
+				84E748892140CB2C002C51F9 /* ThirdViewController.m */,
+				84E74897214104BB002C51F9 /* WXWTabBarControllerConfig.h */,
+				84E74898214104BB002C51F9 /* WXWTabBarControllerConfig.m */,
 				84E748522140C790002C51F9 /* Main.storyboard */,
 				84E748552140C792002C51F9 /* Assets.xcassets */,
 				84E748572140C792002C51F9 /* LaunchScreen.storyboard */,
@@ -130,6 +166,23 @@
 				84E748722140C792002C51F9 /* Info.plist */,
 			);
 			path = CustomTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		84E7487E2140C816002C51F9 /* CustomTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				84E7487F2140C86D002C51F9 /* CustomTabBarController.h */,
+				84E748802140C86D002C51F9 /* CustomTabBarController.m */,
+				84E748822140C8C5002C51F9 /* CustomTabBar.h */,
+				84E748832140C8C5002C51F9 /* CustomTabBar.m */,
+				84E7489C21411A6F002C51F9 /* UIControl+CustomTabBarControllerExtension.h */,
+				84E7489D21411A6F002C51F9 /* UIControl+CustomTabBarControllerExtension.m */,
+				84E7489E21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.h */,
+				84E7489F21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m */,
+				84E7489B21411A6F002C51F9 /* UIView+CustomTabBarControllerExtension.h */,
+				84E7489A21411A6F002C51F9 /* UIView+CustomTabBarControllerExtension.m */,
+			);
+			path = CustomTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +315,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E748872140CB1C002C51F9 /* SecondViewController.m in Sources */,
+				84E748A021411A70002C51F9 /* UIView+CustomTabBarControllerExtension.m in Sources */,
+				84E748A121411A70002C51F9 /* UIControl+CustomTabBarControllerExtension.m in Sources */,
 				84E748512140C790002C51F9 /* ViewController.m in Sources */,
 				84E7485C2140C792002C51F9 /* main.m in Sources */,
+				84E748812140C86D002C51F9 /* CustomTabBarController.m in Sources */,
+				84E748842140C8C5002C51F9 /* CustomTabBar.m in Sources */,
+				84E74899214104BB002C51F9 /* WXWTabBarControllerConfig.m in Sources */,
 				84E7484E2140C790002C51F9 /* AppDelegate.m in Sources */,
+				84E748A221411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m in Sources */,
+				84E7488A2140CB2C002C51F9 /* ThirdViewController.m in Sources */,
+				84E7488D2140CB4B002C51F9 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
