@@ -25,6 +25,7 @@
 		84E748A121411A70002C51F9 /* UIControl+CustomTabBarControllerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7489D21411A6F002C51F9 /* UIControl+CustomTabBarControllerExtension.m */; };
 		84E748A221411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7489F21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m */; };
 		84E748A421420C09002C51F9 /* tabBar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84E748A321420C08002C51F9 /* tabBar.gif */; };
+		84E748A621421427002C51F9 /* tabBar.mov in Resources */ = {isa = PBXBuildFile; fileRef = 84E748A521421427002C51F9 /* tabBar.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		84E7489E21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CustomTabBarControllerExtension.h"; sourceTree = "<group>"; };
 		84E7489F21411A70002C51F9 /* UITabBarItem+CustomTabBarControllerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CustomTabBarControllerExtension.m"; sourceTree = "<group>"; };
 		84E748A321420C08002C51F9 /* tabBar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tabBar.gif; sourceTree = "<group>"; };
+		84E748A521421427002C51F9 /* tabBar.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tabBar.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				84E74897214104BB002C51F9 /* WXWTabBarControllerConfig.h */,
 				84E74898214104BB002C51F9 /* WXWTabBarControllerConfig.m */,
 				84E748A321420C08002C51F9 /* tabBar.gif */,
+				84E748A521421427002C51F9 /* tabBar.mov */,
 				84E748522140C790002C51F9 /* Main.storyboard */,
 				84E748552140C792002C51F9 /* Assets.xcassets */,
 				84E748572140C792002C51F9 /* LaunchScreen.storyboard */,
@@ -291,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E748A621421427002C51F9 /* tabBar.mov in Resources */,
 				84E748592140C792002C51F9 /* LaunchScreen.storyboard in Resources */,
 				84E748562140C792002C51F9 /* Assets.xcassets in Resources */,
 				84E748A421420C09002C51F9 /* tabBar.gif in Resources */,
