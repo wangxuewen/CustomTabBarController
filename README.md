@@ -7,4 +7,4 @@
 
 -使用：
 
-pod 'CustomTabBarController', '~> 0.1.1'
+pod 'CustomTabBarController', '~> 0.1.2'
