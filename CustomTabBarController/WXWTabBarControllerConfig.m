@@ -43,6 +43,7 @@
                                                                                  titlePositionAdjustment:titlePositionAdjustment
                                                  ];
         [self customizeTabBarAppearance:tabBarController];
+        tabBarController.selectedAnimation = YES; //选中动画关闭
         _tabBarController = tabBarController;
     }
     return _tabBarController;

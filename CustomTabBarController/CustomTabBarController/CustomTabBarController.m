@@ -108,10 +108,10 @@ NSString *const WXWTabBarItemTitlePositionAdjustment = @"WXWTabBarItemTitlePosit
         
         UIView *animationView = [btn wxw_tabImageView];
         
-        if (index != 1) {
-            [self addRotateAnimationOnView:animationView];
-        } else {
+        if (index == 1 && self.selectedAnimation) {
             [self addScaleAnimationOnView:animationView  repeatCount:1];
+        } else if (index != 1 && self.selectedAnimation) {
+            [self addRotateAnimationOnView:animationView];
         }
         [self.tabBar bringSubviewToFront:self.mItemArray[self.indexFlag]];
         
@@ -148,7 +148,14 @@ NSString *const WXWTabBarItemTitlePositionAdjustment = @"WXWTabBarItemTitlePosit
     });
 }
 
+#pragma mark -Setter
+-(void)setSelectedAnimation:(BOOL)selectedAnimation {
+    if (_selectedAnimation != selectedAnimation) {
+        _selectedAnimation = selectedAnimation;
+    }
+}
 
+#pragma mark -Getter
 -(NSMutableArray *)mItemArray {
     if (!_mItemArray) {
         _mItemArray = [NSMutableArray arrayWithCapacity:0];

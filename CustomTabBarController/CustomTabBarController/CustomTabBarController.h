@@ -47,6 +47,10 @@ FOUNDATION_EXTERN NSString *const WXWTabBarItemTitlePositionAdjustment;
  */
 @property (nonatomic, readonly, assign) UIOffset titlePositionAdjustment;
 
+/*
+ * Whether to turn on animation
+ */
+@property (nonatomic, readwrite, assign) BOOL selectedAnimation;
 
 
 @end
